@@ -37,13 +37,14 @@ int main() {
         total = 200;
     }
 
+
     printf("\n Electricity Bill \n");
-    printf("Customer ID      : %d\n", customerID);
-    printf("Customer Name    : %s\n", name);
-    printf("Units Consumed   : %d\n", units);
-    printf("Base Amount      : %.2f\n", amount);
-    printf("Surcharge        : %.2f\n", surcharge);
-    printf("Total Bill       : %.2f\n", total);
+    printf("🪪 Customer ID      : %d\n", customerID);
+    printf(" 👤 Customer Name    : %s\n", name);
+    printf(" Units Consumed   : %d\n", units);
+    printf(" Base Amount      : %.2f\n", amount);
+    printf(" Surcharge        : %.2f\n", surcharge);
+    printf("💸 Total Bill       : %.2f\n", total);
     
 
     return 0;
