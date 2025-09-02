@@ -12,7 +12,7 @@ int main(){
        total=price*4;
 
     }
-    else if(ticket<9){
+    else if(ticket<=9){
         price=180;
         total=price*ticket;
     }
