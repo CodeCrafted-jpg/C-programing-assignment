@@ -18,7 +18,7 @@ int main(){
          if(one > third){
             printf("one is the largest number");
          }
-    }else(two>third){
+    }else if(two>third){
         printf("Second number is largest");
     }
     else{
