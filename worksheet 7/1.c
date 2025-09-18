@@ -15,7 +15,7 @@
 // The Result = 5
 
 
-#include <stdio.h>
+
 
 #include <stdio.h>
 
