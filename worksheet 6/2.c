@@ -42,9 +42,9 @@ int main() {
     }
 
     if (Status_Input == 1) {
-        printf("✅ Loan approved. Loan amount: %d\n", loan);
+        printf("✅✅✅ Loan approved. Loan amount: %d\n", loan);
     } else {
-        printf("❌ Loan Not Approved\n");
+        printf("❌❌❌ Loan Not Approved\n");
     }
 
     return 0;
