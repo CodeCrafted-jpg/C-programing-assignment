@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-// Function to find GCD
-int findGCD(int a, int b) {
+
+int GCD(int a, int b) {
     while (b != 0) {
         int temp = b;
         b = a % b;
@@ -11,8 +11,8 @@ int findGCD(int a, int b) {
 }
 
 
-int findLCM(int a, int b) {
-    return (a * b) / findGCD(a, b);
+int LCM(int a, int b) {
+    return (a * b) / GCD(a, b);
 }
 
 int main() {
@@ -29,10 +29,10 @@ int main() {
     
     switch (choice) {
         case 1:
-            printf("GCD of %d and %d = %d\n", num1, num2, findGCD(num1, num2));
+            printf("GCD of %d and %d = %d\n", num1, num2, GCD(num1, num2));
             break;
         case 2:
-            printf("LCM of %d and %d = %d\n", num1, num2, findLCM(num1, num2));
+            printf("LCM of %d and %d = %d\n", num1, num2, LCM(num1, num2));
             break;
         default:
             printf("Invalid choice! Please enter 1 or 2.\n");
