@@ -36,7 +36,7 @@ int main() {
         return 0;
     }
 
-    // ---------------- Pattern (a): Hollow Square ----------------
+    // Pattern (a) ----------------
     printf("\n(a) Hollow Square Pattern:\n");
     for (i = 1; i <= n; i++) {
         for (j = 1; j <= n; j++) {
@@ -48,7 +48,7 @@ int main() {
         printf("\n");
     }
 
-    // ---------------- Pattern (b): Number Triangle ----------------
+    // Pattern (b)----------------
     printf("\n(b) Number Triangle Pattern:\n");
     for (i = 1; i <= n; i++) {
       
@@ -66,7 +66,7 @@ int main() {
         printf("\n");
     }
 
-    // ---------------- Pattern (c): Square with Diagonals ----------------
+    // Pattern (c) ----------------
     printf("\n(c) Square with Diagonals:\n");
     for (i = 1; i <= n; i++) {
         for (j = 1; j <= n; j++) {
@@ -79,7 +79,7 @@ int main() {
         printf("\n");
     }
 
-    // ---------------- Pattern (d): Diamond Pattern ----------------
+    //  Pattern (d)----------------
     printf("\n(d) Diamond Pattern:\n");
 
     for (i = 1; i <= n; i++) {
