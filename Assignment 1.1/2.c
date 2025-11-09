@@ -23,7 +23,7 @@ int main(){
     printf("Numbers in non-decreasing order: ");
     for ( i = 0; i < 3; i++)
     {
-        printf("%d", arr[i]);
+        printf("%d ", arr[i]);
     }
    return 0;
 }
