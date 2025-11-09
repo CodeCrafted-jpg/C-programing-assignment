@@ -11,7 +11,6 @@
 // Withdraw ₹3000 → New balance ₹9,000
 
 #include <stdio.h>
-
 int deposit()
 {
     int depo;

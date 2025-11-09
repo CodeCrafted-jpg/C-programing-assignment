@@ -26,7 +26,7 @@ int multiply(int a,int b){
 }
 
 float devide(int a, int b){
-    float dev=a%b;
+    float dev=a/b;
     return dev;
 }
 
@@ -37,6 +37,6 @@ scanf("%d %d" , &A , &B );
 printf("Addition= %d \n", add(A,B));
 printf("subtraction= %d \n" ,subtract(A,B));
 printf("Multiplication= %d \n",multiply(A,B));
-printf("devision= %d \n" ,devide(A,B));
+printf("devision= %f \n" ,devide(A,B));
 return 0;
 }
