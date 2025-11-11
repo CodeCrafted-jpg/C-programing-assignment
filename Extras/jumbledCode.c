@@ -45,7 +45,7 @@ int main() {
       
         file = fopen("encrypted.txt", "w");
         if (file == NULL) {
-            printf("❌ Error saving to file.\n");
+            printf(" Error saving to file.\n");
             return 1;
         }
         fprintf(file, "%s\n%d", processed, key);
@@ -55,7 +55,7 @@ int main() {
     } else if (choice == 2) {
         file = fopen("encrypted.txt", "r");
         if (file == NULL) {
-            printf("❌ No 'encrypted.txt' found. Encrypt something first.\n");
+            printf(" No 'encrypted.txt' found. Encrypt something first.\n");
             return 1;
         }
 
@@ -71,11 +71,11 @@ int main() {
             decryptText(text, enteredKey, restored);
             printf("\n Correct key! Original message:\n%s\n", restored);
         } else {
-            printf("\n❌ Wrong key! Access denied.\n");
+            printf("\n Wrong key! Access denied.\n");
         }
 
     } else {
-        printf("❌ Invalid choice.\n");
+        printf(" Invalid choice.\n");
     }
 
     printf("Program finished. Stay secure!\n");
