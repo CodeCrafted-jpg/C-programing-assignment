@@ -8,7 +8,7 @@ int main() {
     if (scanf("%lf %d", &x, &n) != 2 || n <= 0) { puts("Invalid input"); return 1; }
 
     const double PI = 3.14159265358979323846;
-    x = fmod(x, 2*PI);                /* improve convergence */
+    x = fmod(x, 2*PI);            
 
     double sum_sin = x, sum_cos = 1.0;
     double term_sin = x, term_cos = 1.0;
