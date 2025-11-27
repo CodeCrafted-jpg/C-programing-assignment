@@ -33,7 +33,7 @@ int main() {
     int count = 0, choice, id, pos;
 
     while(1) {
-        printf("\n--- Library Menu ---\n");
+        printf("\nLibrary Menu \n");
         printf("1. Add book\n");
         printf("2. Delete book\n");
         printf("3. Search book\n");
