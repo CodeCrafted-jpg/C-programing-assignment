@@ -23,7 +23,6 @@ int main() {
 
     int result = power(base, exp);
     printf("%d^%d = %d\n", base, exp, result);
-
     return 0;
 }
 
