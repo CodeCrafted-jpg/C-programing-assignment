@@ -1,7 +1,7 @@
-//  Write a program in C to find the second smallest element in an array
-
+// Write a program in C to find the second smallest element in an array
 
 #include <stdio.h>
+#include <limits.h>
 
 int main() {
     int arr[100], n, i;
@@ -20,19 +20,20 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    
-    min = sec_min = -99999;
+    // Correct initialization
+    min = sec_min = INT_MAX;
 
     for (i = 0; i < n; i++) {
         if (arr[i] < min) {
             sec_min = min;
             min = arr[i];
-        } else if (arr[i] < sec_min && arr[i] > min) {
+        } 
+        else if (arr[i] < sec_min && arr[i] > min) {
             sec_min = arr[i];
         }
     }
 
-    printf("Second min element = %d", sec_min);
+    printf("Second smallest element = %d", sec_min);
 
     return 0;
 }
