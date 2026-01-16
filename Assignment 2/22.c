@@ -1,4 +1,4 @@
-// 20. Write a program in C for transpose of a given matrix
+// 22. Write a program in C for transpose of a given matrix
 
 #include <stdio.h>
 

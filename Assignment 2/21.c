@@ -1,4 +1,4 @@
-// 20. Write a program in C for Multiplication of two square matrices
+// 21. Write a program in C for Multiplication of two square matrices
 
 #include <stdio.h>
 
